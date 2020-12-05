@@ -14,7 +14,7 @@ const handleSubmit = async (e) => {
   e.preventDefault();
   const query = document.getElementById("searchquery");
   const call = await fetch(
-    `http://en.wikipedia.org/w/api.php?action=query&list=search&format=json&origin=*&srsearch=${query.value
+    `https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&origin=*&srsearch=${query.value
       .trim()
       .replace(" ", "%20")}`
   );
