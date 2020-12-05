@@ -6,7 +6,7 @@ const createResults = (data) =>
     `<div class="res">
     <h3 class="res-head">${data.title}</h3>
   <p class="res-snip">${data.snippet}</p>
-  <a class="res-link" href="http://en.wikipedia.org/?curid=${data.pageid}">View Full</a>
+  <a class="res-link" href="https://en.wikipedia.org/?curid=${data.pageid}">View Full</a>
   </div>`
   );
 
